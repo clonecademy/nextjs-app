@@ -9,7 +9,7 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"includes": ["**", "!**/.agents", "!skills-lock.json"]
+		"includes": ["**", "!**/.agents", "!skills-lock.json", "!next-env.d.ts"]
 	},
 	"formatter": {
 		"enabled": true,

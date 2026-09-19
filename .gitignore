@@ -1,5 +1,9 @@
 # PATH: /.gitignore
 
+# Next.js
+
+.next/
+
 # Node.js
 
 node_modules/

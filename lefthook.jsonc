@@ -7,7 +7,7 @@
 			"lint": {
 				"run": "pnpm lint {staged_files}",
 				"glob": "**/*.{js,jsx,ts,tsx,cjs,mjs,cts,mts,css,html,vue,svelte,astro,json,jsonc}",
-				"exclude": [".agents/**", "skills-lock.json"],
+				"exclude": [".agents/**", "skills-lock.json", "next-env.d.ts"],
 				"stage_fixed": true
 			}
 		}

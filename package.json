@@ -3,7 +3,10 @@
 	"version": "0.0.0",
 	"scripts": {
 		"prepare": "lefthook install",
-		"lint": "biome check --write --verbose"
+		"lint": "biome check --write --verbose",
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
 	},
 	"license": "UNLICENSED",
 	"devEngines": {
@@ -17,6 +20,14 @@
 	"type": "module",
 	"devDependencies": {
 		"@biomejs/biome": "2.5.13",
-		"lefthook": "^2.1.14"
+		"@types/node": "26.6.1",
+		"@types/react": "19.3.0",
+		"lefthook": "^2.1.14",
+		"typescript": "7.0.2"
+	},
+	"dependencies": {
+		"next": "^16.3.5",
+		"react": "^19.3.0",
+		"react-dom": "^19.3.0"
 	}
 }
