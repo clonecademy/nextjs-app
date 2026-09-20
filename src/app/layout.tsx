@@ -1,3 +1,5 @@
+import "@/styles/app.css";
+
 export default function RootLayout({
 	children,
 }: {
@@ -5,7 +7,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body>{children}</body>
+			<body className="flex flex-col min-h-svh">{children}</body>
 		</html>
 	);
 }
