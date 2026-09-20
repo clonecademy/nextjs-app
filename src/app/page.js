@@ -1,3 +1,7 @@
 export default function Page() {
-	return <h1>Hello, world!</h1>;
+	return (
+		<main className="flex items-center justify-center grow">
+			<h1>Hello, world!</h1>
+		</main>
+	);
 }
