@@ -37,6 +37,13 @@
       "skillPath": ".agents/skills/next-upgrade/SKILL.md",
       "computedHash": "e3aeb1f9e8a68d24df0c1c2e3c8ab97ede09a7251a2c76988318d02254346979"
     },
+    "react-aria": {
+      "source": "react-aria.adobe.com",
+      "sourceUrl": "https://react-aria.adobe.com",
+      "sourceType": "well-known",
+      "computedHash": "535d95c23ff6871fbce98d3b0999505753a38d9af53a66507e860726919e8798",
+      "wellKnownDigest": "sha256:9e8c27013e279c54c9e2d0c9bcf2d8b09947be46f44807c4d91bfd6924a93e4c"
+    },
     "shadcn": {
       "source": "shadcn/ui",
       "sourceType": "github",
